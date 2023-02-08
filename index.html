@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0c47ba901a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Subinay Nath PORTFOLIO</title>
+</head>
+
+<body>
+    <!-- ------------hero------------ -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><span>S</span>ubinay</div>
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-times" onclick="closebar()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openbar()"></i>
+            </nav>
+            <div class="hero-text">
+                <h1><span>Hii</span>, I'm<b> Subinay Nath</b></h1>
+                <p>Full Stack Web Developer</p>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------about----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="/images/DP.jpg" alt="my pic">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a Full Stack Web Developer specialization MERN Stack who gained skills from Newton School. I
+                        am attentive and agile learner with a diverse foundation of tech industry. Also
+                        motivated,self-starter and leader with strong organizational and communicative abilities.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="showtab('skills')">Skills</p>
+                        <p class="tab-links" onclick="showtab('experience')">Experience</p>
+                        <p class="tab-links" onclick="showtab('education')">Education</p>
+                    </div>
+                    <!-- ---skills---- -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>FullStack Web Developer.</li>
+                            <li><span>Languages</span><br>HTML, CSS, Javascript, React.js, JAVA.</li>
+                            <li><span>Framework</span><br>Bootstrap.</li>
+                        </ul>
+                    </div>
+                    <!-- ---experience---- -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June2022-Present</span><br>Newton School Coding Bootcamp.</li>
+
+                        </ul>
+                    </div>
+                    <!-- -----education--- -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Graduate</span><br>Bachelor of Science(2021).</li>
+                            <li><span>Higher Secondary</span><br>West Bengal Council of Higher Secondary
+                                Education(2018).</li>
+                            <li><span>Intermidate</span><br>West Bengal Board of Secondary Education(2016).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------Services------------- -->
+    <!-- <div id="services">
+        <div class="container"></div>
+        <h1 class="sub-title">My Services</h1>
+
+    </div> -->
+
+    <!-- --------Porjects---------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/project1.jpg">
+                    <div class="layer">
+                        <h1>Assistant Website</h1>
+                        <p>In this Website you can get some desire output by using voice command. </p>
+                        <a href="https://alphaasistant.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.png">
+                    <div class="layer">
+                    <h1>IMDb Clone</h1>
+                    <p>This is a clone Website of Imdb</p>
+                    <a href="https://myimdb-clone.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.png">
+                    <div class="layer">
+                    <h1>In progress</h1>
+                    <p>This Project Is in Progress</p>
+                    <a href="" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="/images/work-3.png">
+                    <div class="layer">
+                    <h1>Shopping App</h1>
+                    <p>Use this App for Shopping</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- ==============Contact Me=============== -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> nathsubinay@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 8116382554</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/subinaynath/"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/subinaynath/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/subinay.nath.16/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/itz_subinay_/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="/images/mycv.pdf" class="btn" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="Email" placeholder="Enter your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Enter your message here."></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <div id="success"></div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyight © Subinay Nath. By using HTML, CSS & JAVASCRIPT</p>
+        </div>
+    </div>
+
+
+    <!-- link js file -->
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+
+</html>
